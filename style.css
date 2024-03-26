@@ -1,0 +1,36 @@
+body{
+    text-align:center;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    width:100vmax;
+}
+
+h1{
+    margin-block:30px;
+}
+
+img{
+    height:75%;
+}
+
+div{
+    display:grid;
+    place-items:center;
+    align-content:center;
+    min-height:100vh;
+    color:black;
+    width:100vmax;
+}
+
+.hidden{
+    opacity:0;
+    filter:blur(15px);
+    transition:all 1s;
+}
+
+.show{
+    opacity:1;
+    filter:blur(0);
+    transition:all 1s;
+}
